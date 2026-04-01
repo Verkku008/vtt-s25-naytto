@@ -1,0 +1,24 @@
+.jokujuttu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 800px;
+    height: 400px;
+    background-color: blue;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .jokujuttu {
+        width: 400px;
+        height: 200px;
+        background-color: red;
+    }
+}
